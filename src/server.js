@@ -14,8 +14,8 @@ const app = express()
 const port = process.env.PORT
 
 // only define high level APIs here
-app.use('/', (req, res) => res.send('Commercing App by TheDarkKnights'))
-app.use('/user', userController)
+app.get('/', (req, res) => res.send('Commercing App by TheDarkKnights'))
+app.use('/api/user', userController)
 
 // server
 app.listen(port, () => console.log("Server is listening on port " + port))
