@@ -17,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/the-dark-knights/commerce-backend/issues"
   },
-  "homepage": "https://github.com/the-dark-knights/commerce-backend#readme"
+  "homepage": "https://github.com/the-dark-knights/commerce-backend#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "multer": "^1.4.2"
+  }
 }
