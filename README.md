@@ -19,7 +19,7 @@ npm start
 ```
 4. To install new dependencies, save it to package.json.
 ```
-npm install -s <package>
+npm install <package> --save
 ```
 5. This project is running remotely on Heroku. Install Heroku CLI first.
 
@@ -41,7 +41,7 @@ git remote -v
 ```
 8. If heroku branch is missing, retrieve the git url from heroku dashboard and add it to your remote.
 ```
-git remote add heroku <heroku--git-url> 
+git remote add heroku <heroku-git-url> 
 ```
 9. To push your feature to heroku remote after commits.
 ```
