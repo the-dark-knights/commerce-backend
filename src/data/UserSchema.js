@@ -58,7 +58,7 @@ createUser = async (name, role) => {
     })
     let savedUser = {}
     try {
-        const savedUser = await newUser.save()
+        savedUser = await newUser.save()
     } catch (err) {
         console.log(err)
         return helper.setStatus(500, err)
